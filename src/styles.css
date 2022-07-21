@@ -1,0 +1,52 @@
+body {
+  font-family: sans-serif;
+  background-color: rgb(218, 201, 235);
+}
+
+h1 {
+  background-color: orchid;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 40px;
+}
+
+div > h2 {
+  font-weight: bold;
+  font-size: 45px;
+}
+
+.destacado {
+  color: red;
+}
+
+p {
+  color: blue;
+}
+
+p ~ h2 {
+  color: orange;
+  font-size: 15 px;
+}
+
+p + h2 {
+  color: rgb(189, 59, 81);
+}
+
+span {
+  color: black;
+}
+
+span.distinta {
+  color: rgb(116, 111, 111);
+}
+
+p {
+  color: green !important;
+}
+
+a:hover {
+  color: rgb(131, 131, 199);
+}
+
+a:checked {
+  color: red;
+}
